@@ -1,7 +1,6 @@
 #include <IRremote.h>
 #include <IRremoteInt.h>
 
-
 /*
  * IRremote: IRrecvDemo - demonstrates receiving IR codes with IRrecv
  * An IR detector/demodulator must be connected to the input RECV_PIN.

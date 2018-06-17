@@ -1,5 +1,3 @@
-//#include <IRLibAll.h>
-
 #include <IRremote.h>
 
 IRsend irsend;
@@ -11,7 +9,6 @@ void setup()
 }
 void loop() {
   irsend.sendSony(0xa8bca, 16);
-  //mySender.send(SONY,0xa8bca, 16);
   Serial.println("Enviado");
   delay(1000);
 }
