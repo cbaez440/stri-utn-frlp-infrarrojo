@@ -1,7 +1,6 @@
 #include <IRremote.h>
 
 IRsend irsend;
-IRsend mySender;
   
 void setup()
 {
